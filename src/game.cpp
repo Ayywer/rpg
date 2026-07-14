@@ -12,7 +12,7 @@
 namespace rpg {
 void Game::setup() {
   char input;
-  std::cout << "Choose yoour fighter [f - Fighter, m - Magician]: ";
+  std::cout << "Choose your fighter [f - Fighter, m - Magician]: ";
   std::cin >> input;
   switch (input) {
   case 'f':

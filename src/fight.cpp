@@ -9,7 +9,7 @@ Fight::Fight(std::shared_ptr<Player> player) : m_pPlayer(player) {
   m_Reward = enemy_strength;
 
   char input;
-  std::cout << "Choose yur enemy type [f - Fighter, m - Magician]: ";
+  std::cout << "Choose your enemy type [f - Fighter, m - Magician]: ";
   std::cin >> input;
   switch (input) {
   case 'f':
